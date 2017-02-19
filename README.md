@@ -1,5 +1,5 @@
 # Word Vector Text Modulator
-Based on [a contribution](https://github.com/mbwolff/Word-Vector-Text-Modulator) to [2016 NaNoGenMo](https://github.com/NaNoGenMo/2016)
+Based on [a contribution](https://github.com/mbwolff/Word-Vector-Text-Modulator) to [2016 NaNoGenMo](https://github.com/NaNoGenMo/2016).
 
 This repository contains the code and data necessary to modulate any text with word vectors derived from over 1300 nineteenth-century French texts.
 
