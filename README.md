@@ -1,18 +1,12 @@
 # Word Vector Text Modulator
-A contribution to [2016 NaNoGenMo](https://github.com/NaNoGenMo/2016)
+Based on [a contribution](https://github.com/mbwolff/Word-Vector-Text-Modulator) to [2016 NaNoGenMo](https://github.com/NaNoGenMo/2016)
 
-This repository contains the code and data necessary to generate _Madame Bovary modulée_, a novel based on the text by Flaubert but modified with word vectors derived from over 1300 nineteenth-century French texts.
+This repository contains the code and data necessary to modulate any text with word vectors derived from over 1300 nineteenth-century French texts.
 
-Run the following command to produce the novel:
-
-```
-./transformText.py homme femme FlaubertMadameBovary.txt > MadameBovaryModulée.txt
-```
-
-This command will produce an interesting variation on Baudelaire's prose poem _Enivrez-vous!_:
+The following command will produce an interesting variation on Baudelaire's prose poem _Enivrez-vous!_:
 
 ```
-./transformText.py enivrer amuser BaudelaireEnivrezVous.txt > BaudelaireAmusezVous.txt
+./transformText.py noir blanc BaudelaireEnivrezVous.txt
 ```
 
 ### A quick explanation of what's under the hood
