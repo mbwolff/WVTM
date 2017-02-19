@@ -6,7 +6,7 @@ This repository contains the code and data necessary to modulate any text with w
 The following command will produce an interesting variation on Baudelaire's prose poem _Enivrez-vous_:
 
 ```
-./transformText.py noir blanc BaudelaireEnivrezVous.txt
+./modulateText.py noir blanc BaudelaireEnivrezVous.txt
 ```
 
 ### A quick explanation of what's under the hood
