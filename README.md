@@ -3,7 +3,7 @@ Based on [a contribution](https://github.com/mbwolff/Word-Vector-Text-Modulator)
 
 This repository contains the code and data necessary to modulate any text with word vectors derived from over 1300 nineteenth-century French texts.
 
-The following command will produce an interesting variation on Baudelaire's prose poem _Enivrez-vous!_:
+The following command will produce an interesting variation on Baudelaire's prose poem _Enivrez-vous_:
 
 ```
 ./transformText.py noir blanc BaudelaireEnivrezVous.txt
