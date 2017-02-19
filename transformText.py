@@ -15,8 +15,9 @@ from pprint import pprint
 # focus2 = 'femme'
 # focus1 = 'boire'
 # focus2 = 'dormir'
-focus1 = sys.argv[1]
-focus2 = sys.argv[2]
+
+focus1 = sys.argv[1].decode(sys.getfilesystemencoding())
+focus2 = sys.argv[2].decode(sys.getfilesystemencoding())
 sourcefile = sys.argv[3]
 
 w2vfile = 'ARTFLmodel'
