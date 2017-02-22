@@ -11,7 +11,7 @@ The following command will produce an interesting variation on Baudelaire's pros
 
 ### A quick explanation of what's under the hood
 
-[Vector space models of vocabularies offer relatively new techniques for exploring the semantic relationships between words](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html). Using [gensim](https://radimrehurek.com/gensim/models/word2vec.html) to build such a model, the code presented here takes a pair of words (e.g. "homme" and "femme") and a given text as parameters to generate a new text. Each word in the original text is replaced by a word that is "most similar" to it according to the word pair. For instance, if "roi" is a word in the original text, it would be replaced thusly:
+[Vector space models of vocabularies offer promising techniques for exploring the semantic relationships between words](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html). Using [gensim](https://radimrehurek.com/gensim/models/word2vec.html) to build such a model, the code presented here takes a pair of words (e.g. "homme" and "femme") and a given text as parameters to generate a new text. Each word in the original text is replaced by a word that is "most similar" to it according to the word pair. For instance, if "roi" is a word in the original text, it would be replaced thusly:
 
 ```
 >>> model.most_similar(positive=['femme', 'roi'], negative=['homme'], topn=1)
