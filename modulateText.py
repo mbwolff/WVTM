@@ -9,7 +9,6 @@ from pattern.fr import singularize, pluralize, conjugate, tenses, lemma, \
 from fixWords import correct_grammar, fix_agreements, fix_word
 from pprint import pprint
 
-# sourcefile = 'FlaubertMadameBovary.txt'
 # sourcefile = 'BaudelaireEnivrez.txt'
 # focus1 = 'homme'
 # focus2 = 'femme'
