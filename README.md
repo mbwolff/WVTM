@@ -6,12 +6,12 @@ This repository contains the code and data necessary to modulate any text with w
 The following command will produce an interesting variation on Baudelaire's prose poem _Enivrez-vous_:
 
 ```
-./modulateText.py maladroit aisé FlaubertBovary01.txt > FlaubertBovary01module.txt
+./modulateText.py maladroit adroit FlaubertBovary01.txt > FlaubertBovary01module.txt
 ```
 
 ### A quick explanation of what's under the hood
 
-[Vector space models of vocabularies offer promising techniques for exploring the semantic relationships between words](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html). Using [gensim](https://radimrehurek.com/gensim/models/word2vec.html) to build such a model, the code presented here takes a pair of words (e.g. "homme" and "femme") and a given text as parameters to generate a new text. Each word in the original text is replaced by a word that is "most similar" to it according to the word pair. For instance, if "roi" is a word in the original text, it would be replaced like this:
+[Vector space models of vocabularies offer promising techniques for exploring the semantic relationships between words](http://bookworm.benschmidt.org/posts/2015-10-25-Word-Embeddings.html). Using [gensim](https://radimrehurek.com/gensim/models/word2vec.html) to build such a model, the code presented here takes a pair of words (e.g. "homme" and "femme") and a given text as parameters to generate a new text based on computationally derived analogies. Each word in the original text is replaced by a word that is "most similar" to it according to the word pair. For instance, if "roi" is a word in the original text, it would be replaced like this:
 
 ```
 >>> model.most_similar(positive=['femme', 'roi'], negative=['homme'], topn=1)
