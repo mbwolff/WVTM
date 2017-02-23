@@ -17,4 +17,4 @@ The following command will produce an interesting variation on Baudelaire's pros
 >>> model.most_similar(positive=['femme', 'roi'], negative=['homme'], topn=1)
 [(u'reine', 0.8085041046142578)]
 ```
-In this case the vector space model is able to complete the analogy: _"**reine**" is to "femme" as "roi" is to "homme"_. Handling verb conjugations and adjective agreements computationally in French is tricky but the code produces a mostly readable text needing grammatical polishing (a good exercise for students). The code can modulate any text against any pair of words. The quality of the result depends on the corpus for the vector space model and the word pair chosen by the user.
+The vector space model is able to complete the analogy: _"**reine**" is to "femme" as "roi" is to "homme"_. Handling verb conjugations and adjective agreements computationally in French is tricky but the code produces a mostly readable text needing grammatical polishing (a good exercise for students). The code can modulate any text against any pair of words. The quality of the result depends on the corpus for the vector space model and the word pair chosen by the user.
