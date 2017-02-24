@@ -6,7 +6,7 @@ This repository contains the code and data necessary to modulate any text with w
 The following command will produce an interesting variation on the description of Charles Bovary's hat in the first chapter of _Madame Bovary_:
 
 ```
-./modulateText.py maladroit adroit FlaubertBovary01.txt > FlaubertBovary01module.txt
+./modulateText.py maladroit adroit FlaubertBovary01.txt
 ```
 
 ### Prerequisites ###
